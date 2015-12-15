@@ -5,7 +5,7 @@ $backgroundimage = 'false';
 $modalbackgroundimg = 'modalbackground1.jpg';
 $fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
 $titlefontcolor = 'rgb(146,212,0)';  //colour of title
-$backgroundcolor = 'black'; //white
+$backgroundcolor = 'white'; //white
 $n = '1';//do not touch, should correspond to content/article number
 ?>
 
@@ -23,16 +23,19 @@ echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/
 
 		<div class="col-md-10 col-md-offset-1">
 
-		<h3>Title 1</h3>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
+		<h3>MEET THE SENIOR MANAGEMENT TEAM (SMT)</h3>
+		<p>Hello and welcome to this, our first Digital Edition of the Kantar Worldpanel Operations Newsletter. With Jeremy off on holiday this week, he has left his editorial duties to us, the newly founded Senior Management Team.</p>
+<p>You know most of us all as individuals and will have heard from a couple of us at this month’s Operations Comm’s session, but we’d like to use this platform to introduce ourselves as a team, tasked to work collaboratively in order to drive Operations, both in process initiative and people development.</p>
+<p>Very soon we will be sending out an invite to join us at our own Chatter Matters, providing us with a valuable opportunity to have a conversation with both Operations and the wider business to help us to shape our plans and visions.</p>
+<p>Whilst we might not have all the answers just yet, we look forward to sharing with you our initial ideas for the future of Operations and of course listening and discussing some of yours.</p>
+<p>Our main aim is to drive and accommodate change, and most importantly to Drive Client Growth. So we look forward to telling you more about what we’re up to and also having the chance to hold valuable conversations with you and providing support and resource wherever we can.</p>
+<p>So there we are, the Senior Management team, we’re here to help and make things happen!</p><br>
 
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
 
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
-		</p>
 			
-			
+		<?php echo '<img class="img-responsive" src="./'.$nsw_issue.'/images/content/smt.png" alt="">'; ?> 
+		<?php echo '<img class="img-responsive" src="./'.$nsw_issue.'/images/content/smt2.png" alt="">'; ?>   
+
 		</div> <!-- col-md -->
 
 

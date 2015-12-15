@@ -51,6 +51,10 @@ if (isset($_GET['issue'])) {
     <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">    
     <link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css">
 
+    <!--gallery plugin -->
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="assets/plugins/Bootstrap-Image-Gallery-master/css/bootstrap-image-gallery.min.css">
+
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
     <!-- <link rel="stylesheet" href="./customcss.css"> -->
@@ -99,6 +103,7 @@ if (isset($_GET['issue'])) {
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="index.php?issue=november&year=2015">November 2015</a></li> <!--Click load correct php ? use GET to load correct parameter -->
+                            <!-- <li><a href="index.php?issue=december&year=2015">December 2015</a></li> -->
                         </ul>
                     </li>
                     <!-- End Home -->
@@ -172,9 +177,17 @@ include $nsw_issue.'/'.$nsw_issue.'.php';
 <!-- JS Page Level -->           
 <script type="text/javascript" src="assets/js/app.js"></script>
 <script type="text/javascript" src="assets/js/plugins/cube-portfolio/cube-portfolio-3.js"></script>
+<script type="text/javascript" src="assets/js/plugins/jquery.snow.js"></script>
+
+<!--GALLERY PLUGIN -->
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="assets/plugins/Bootstrap-Image-Gallery-master/js/bootstrap-image-gallery.min.js"></script>
+
+
 <script type="text/javascript">
     jQuery(document).ready(function() {
         App.init();
+  
 
         });
 </script>
@@ -205,7 +218,31 @@ if(isChromium !== null && isChromium !== undefined && vendorName === "Google Inc
 
 </script>
 
+<script>
+// Adds Snow if december
+$(document).ready( function(){
 
+var thismonth = '<?php echo $nsw_issue;?>' ;  
+    if (thismonth == "decemberx") {
+    console.log("month is dec. Let it snow");
+    $.fn.snow({ minSize: 5, maxSize: 50, newOn: 400, flakeColor: 'RGB(190,215,215)' });
+    }
+
+
+    // to launch gallery
+    $('#image-gallery-button').on('click', function (event) {
+        event.preventDefault();
+        blueimp.Gallery($('#links a'), $('#blueimp-gallery').data());
+    });
+    
+});
+
+</script>
+<style>
+    #flake {
+    z-index: 1000;
+}
+</style>
 
 
 </body>

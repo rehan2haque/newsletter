@@ -3,9 +3,9 @@
 <?php
 $backgroundimage = 'false';
 $modalbackgroundimg = 'modalbackground1.jpg';
-$fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
-$titlefontcolor = 'rgb(146,212,0)';  //colour of title
-$backgroundcolor = 'black'; //white
+$fontcolor = 'black'; //black //white //#888 //rgb(146,212,0)
+$titlefontcolor = 'white';  //colour of title
+$backgroundcolor = '#C71C22'; //white
 $n = '7';//do not touch, should correspond to content/article number
 ?>
 
@@ -19,21 +19,39 @@ if ($backgroundimage=="true"){
 echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/'.$modalbackgroundimg.'");background-repeat: no-repeat; background-size: cover; }</style> ';  //USE TO ADD BACKGROUND IMAGE
 }
 ?>
+<style>
 
+.diarydatelist li {
+	color:black;
+	 list-style-type: none;
+}
+
+</style>
 
 		<div class="col-md-10 col-md-offset-1">
+		<div>
+		<?php echo '<img style="max-width:30%;" class="img-responsive pull-right" src="./'.$nsw_issue.'/images/content/diary.png" alt="">'; ?>   
+		</div>
 
-		<h3>Title 2</h3>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
+		<h1 style="color:white;">Dates for your Diary</h1>
+		<p><br>
 
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
 
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
+		<h3>Operations Christmas Party</h3>
+			<uL class="diarydatelist">
+				<li>11th of December</li>
+				<li>Look out for the email next week to register your place!</li>
+			</uL>
+
+		<h3>The One Event</h3>
+			<uL class="diarydatelist">
+				<li>27th November</li>
+				<li>	The One event is around the corner , same time same place at the ILEC, 47 Lillie Road, Earls Court, SW6 1UD. Be sure to register your place before the link expires on the 16th of November.</li>
+			</uL>
+
+
 		</p>
 			
-			
 		</div> <!-- col-md -->
-
 
             

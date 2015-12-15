@@ -1,9 +1,9 @@
 
 
 <?php
-$backgroundimage = 'false';
-$modalbackgroundimg = 'modalbackground1.jpg';
-$fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
+$backgroundimage = 'true';
+$modalbackgroundimg = '/content/ibmbackgroundart7.jpg';
+$fontcolor = '#DEDBDB'; //black //white //#888 //rgb(146,212,0)
 $titlefontcolor = 'rgb(146,212,0)';  //colour of title
 $backgroundcolor = 'black'; //white
 $n = '8';//do not touch, should correspond to content/article number
@@ -21,17 +21,23 @@ echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/
 ?>
 
 
-		<div class="col-md-10 col-md-offset-1">
+		<div style="text-shadow: 2px 2px 8px #000000;" class="col-md-10 col-md-offset-1">
 
-		<h3>Title 2</h3>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
+<div class="col-md-6 col-lg-6">
+<h3>The IT Transformation Process</h3>
 
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
-
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
-		</p>
-			
+<p>As part of the IT Transformation that WPP is undertaking across the group, our IT support has now been outsourced to IBM, who provide us with a 24/7 helpdesk accessible via the Service Now self-service portal <a href="https://coretech.service-now.com" target="_blank">https://coretech.service-now.com</a>, or by dialling 444444 from your extension. To ensure continued improvement and quality delivery of the IT service to KWP UK, an initiative taken by Jeremy in the restructuring of Operations - a new function was created within our IT under the Business Support department called the IT Liaison team. 
+</p><br>
+<p>
+This team is comprised of Husam Aljabi, who has joined us in August 2015, and our own Randeep Mann who has supported the 2014 and recent 2015 IT Audits conducted by WPP. Husam (Sam) has joined us from International SOS, a global outsourced healthcare provider where he was based in Dubai. Traveling extensively in the MEA region, he was in charge of delivering IT services and projects, while looking after infrastructure and operations in that region. 
+</p><br>
+<p>
+The IT Liaison team’s job is to manage the relationship with IBM’s various service delivery teams and ensure that the company is getting it’s a quality product in return for its investment and that all our users are happy with the level of service. They also act as our point of escalation in the event any request is “stuck” and needs to be nudged along.
+</p><br>
+<p>
+The overall IT transformation journey will be a long one and we’re really only just beginning; we are bound to encounter a few teething issues along the way as IBM become better acquainted with our systems and we appreciate the knock on effects IT issues can have on our delivery schedules and so we would like to thank you all for the patience and understanding you have shown during this initial upheaval. The good news is that now that the transition has commenced, we can also expect to see some landmark developments coming through fairly soon and fairly frequently, which we will of course keep you updated with right here in the Operations Newsletter.
+</p>
+</div>			
 			
 		</div> <!-- col-md -->
 

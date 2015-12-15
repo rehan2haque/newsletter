@@ -1,11 +1,11 @@
 
 
 <?php
-$backgroundimage = 'false';
-$modalbackgroundimg = 'modalbackground1.jpg';
-$fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
-$titlefontcolor = 'rgb(146,212,0)';  //colour of title
-$backgroundcolor = 'black'; //white
+$backgroundimage = 'true';
+$modalbackgroundimg = '/content/diwalibackground.jpg';
+$fontcolor = '#FFB300'; //black //white //#888 //rgb(146,212,0)
+$titlefontcolor = '#FFB300';  //colour of title
+$backgroundcolor =  'white'; //'black';
 $n = '11';//do not touch, should correspond to content/article number
 ?>
 
@@ -22,18 +22,31 @@ echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/
 
 
 		<div class="col-md-10 col-md-offset-1">
+<h3>Kantar Diwali Celebrations 2015</h3>
+<div class="col-md-6 col-lg-6">
 
-		<h3>Title 2</h3>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
+                    <div class="thumbnail-img">
+                        <?php echo '<img class="img-responsive" src="./'.$nsw_issue.'/images/content/Diwali_Poster.jpg" alt="">'; ?>                            
+                    </div>
 
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
+	
+</div>
+<div class="col-md-6 col-lg-6">
+<p>Diwali Celebrations for 2015 are planned for Monday, the 16th Nov. Each year we gather together to celebrate the Festival of Lights. This year it’s the same, presenting delicacies from four corners of India and sharing them together in WG1-5 from 12-2pm. 
+</p>
+<p>
+Diwali (or Deepavali, the "festival of lights") is an ancient festival celebrated in autumn every year. The festival spiritually signifies the victory of light over darkness, good over evil. Diwali is celebrated over period of five days. Each individual day has its own importance. The fourth day of Diwali is the Hindu New Year.  Before Diwali night, people clean, renovate and decorate their homes and offices. On Diwali night, people dress up in new clothes or their best outfit, light up diyas (oil lamps and candles) inside and outside their home, participate in family puja (prayers) typically to Lakshmi – the goddess of wealth and prosperity, do fireworks, hold a family feast including mithai (sweets) and exchange gifts between family members and close friends. 
+</p>
+<p>
+So come and join in with the festivities.
+</p>
+<p>
+This year’s menu is shaping up to be an exciting change from previous years, so don’t miss out!
+</p>
 
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
-		</p>
-			
-			
+</div>
+
 		</div> <!-- col-md -->
 
 
-            
+ 

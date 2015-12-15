@@ -3,9 +3,9 @@
 <?php
 $backgroundimage = 'false';
 $modalbackgroundimg = 'modalbackground1.jpg';
-$fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
-$titlefontcolor = 'rgb(146,212,0)';  //colour of title
-$backgroundcolor = 'black'; //white
+$fontcolor = 'black'; //black //white //#888 //rgb(146,212,0)
+$titlefontcolor = 'white';  //colour of title
+$backgroundcolor = '#FB5C4B'; //white
 $n = '15';//do not touch, should correspond to content/article number
 ?>
 
@@ -15,25 +15,44 @@ echo '<style>.formatbkgrnd'.$n.' {background-color:'.$backgroundcolor.';}</style
 echo '<style>.formatfont'.$n.' p {color:'.$fontcolor.';}</style>'; 
 echo '<style>.formatfont'.$n.' h3 {color:'.$titlefontcolor.';}</style>'; 
 
+echo '<style>.formatfont'.$n.' h3 {color:'.$titlefontcolor.';}</style>'; 
+
+
 if ($backgroundimage=="true"){
 echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/'.$modalbackgroundimg.'");background-repeat: no-repeat; background-size: cover; }</style> ';  //USE TO ADD BACKGROUND IMAGE
 }
 ?>
+<style>
+.questionwhite	{color:white; display: block;}
+</style>
+
+<div class="col-md-10 col-md-offset-1">
+			<div class="col-md-6 col-lg-4">
+
+			                    <div class="thumbnail-img">
+			                        <?php echo '<img class="img-responsive" src="./'.$nsw_issue.'/images/content/InterviewImage5.jpg" alt="">'; ?>                            
+			                    </div>
 
 
-		<div class="col-md-10 col-md-offset-1">
 
-		<h3>Title 2</h3>
-		<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
-
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
-
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
-		</p>
-			
-			
-		</div> <!-- col-md -->
+			<p><span class="questionwhite">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy ?</span>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus.</p>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+				
 
 
-            
+					</div>
+
+			<div class="col-md-6 col-lg-8">
+			<div style="background-color: black;padding: 0.1em;margin-bottom: 1em;"><h3><strong>&nbsp;<span style="color:#BB1200;">Five Minutes with..</span></strong> Joe Bloggs</h3></div>
+			<p><span class="questionwhite">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since?</span> the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus.</p>
+			<p><span class="questionwhite">Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown ?</span>
+			printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectusp.Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus.</p>
+			<p>Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectusp.Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus.</p>
+			<p><span class="questionwhite">Lorem Ipsum is simply dummy text of the rinting and typesetting industry. Lorem Ipsum has been the industry’s standard?</span>dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectusp.Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus.</p>
+
+			</div>
+
+
+
+
+ </div> <!-- col-md main -->

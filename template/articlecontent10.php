@@ -3,7 +3,7 @@
 <?php
 $backgroundimage = 'true';
 $modalbackgroundimg = 'content/backoffbackground.jpg';
-$fontcolor = 'inherit'; //black //white //#888 //rgb(146,212,0)
+$fontcolor = '#F5F5F5'; //black //white //#888 //rgb(146,212,0)
 $titlefontcolor = 'rgb(146,212,0)';  //colour of title
 $backgroundcolor = 'black'; //white
 $n = '10';//do not touch, should correspond to content/article number
@@ -22,19 +22,19 @@ echo '<style>.formatbkgrnd'.$n.' { background-image: URL("'.$nsw_issue.'/images/
 
 
 		<div class="col-md-10 col-md-offset-1">
-
-		
-
+				
 		<h3>The Great Kantar Bake Off 2015</h3>
+		<div><?php echo '<img style="max-width:65%;" class="img-responsive pull-right" src="./'.$nsw_issue.'/images/content/Cakes.jpg" alt="">'; ?></div> 
 		<p>
-		TEST ipsum dolor sit amet, consectetur adipiscing elit. Maecenas rutrum posuere eros, a imperdiet turpis dictum sed. Duis tempus urna facilisis purus hendrerit blandit. Aenean volutpat ornare libero, pulvinar pharetra dui bibendum a. Maecenas sodales tellus eros, a euismod velit gravida eu. Pellentesque gravida vehicula risus, vel dapibus odio auctor nec. Nunc dolor eros, porttitor nec suscipit non, tincidunt et odio. Nullam mauris enim, tempus id elit eget, accumsan bibendum nisl.
-
-		Mauris et diam et tellus luctus rhoncus. Sed odio turpis, mollis nec purus vel, tempor interdum nisi. Integer dapibus augue sit amet malesuada elementum. Maecenas congue, enim a condimentum elementum, sem felis molestie felis, vel finibus lacus arcu eu arcu. Sed pulvinar, nulla nec molestie ultrices, arcu nibh vulputate turpis, ut viverra eros urna nec metus. Quisque sed feugiat magna, mollis semper metus. Aliquam nec mi libero. Phasellus et justo posuere est faucibus mollis eget vitae ex. Vestibulum arcu ante, maximus ac congue vel, faucibus quis nibh. Aenean in diam sapien. Nulla porta eu est non gravida. Nam ante dui, pellentesque eu lacinia in, sollicitudin vel purus. Quisque interdum nunc quis porta interdum. Phasellus et varius felis, vitae viverra ante. Nunc lorem lectus, tempus quis elit ac, posuere auctor odio.
-
-		Quisque bibendum at tortor vitae tempus. Mauris ultrices ultricies tellus. Suspendisse malesuada quam nec odio commodo, sit amet bibendum ex sagittis. Nam ac lacinia sem, vel lacinia ante. Mauris sed nunc ante. Proin iaculis dictum dapibus. Nam pretium cursus felis. Donec tempus nunc nulla, ut pretium erat pulvinar quis. Nam sed ex nibh. Aliquam suscipit non mi sit amet pretium. Quisque varius purus nec dui malesuada, accumsan blandit eros volutpat. Nulla ultricies et purus in vehicula. Quisque malesuada felis eu justo cursus, pharetra ornare lectus pellentesque.
+		Thank you to everyone who took part in this years Kantar Bake Off, which took place on Friday 23rd October. we asked you to don your pink attire (or a splash of) and make a donation to raise money for the Breast Cancer Campaign.</p>
+			
+		<p>BIG THANK YOU to the 17 Bakers who have already helped raise £45.30 so far! we had some very creative entries and the winners were well deserving.</p>
+		<div>
+		<p>1st place: <strong style="color:rgb(146,212,0);">Shetal Vajesang</strong><br>
+		2nd place: <strong style="color:rgb(146,212,0);">Holly Crowther</strong><br>
+		3rd place: <strong style="color:rgb(146,212,0);">James Brown</strong><br>
 		</p>
-			
-			
+		</div>	
 		</div> <!-- col-md -->
 
 
